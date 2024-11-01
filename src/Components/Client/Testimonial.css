@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+  }
+  .clientHeading{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.clientHeading>h3{
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.clientHeading>p{
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    color: grey;
+}
+  .Casousal {
+    width: 90%;
+    margin: auto;
+  }
+  
+  
+  .slick-slide div {
+    margin: 0 0.1rem;
+  }
+  
+  .slick-next:before {
+    color:  #243e7c; 
+
+}
+.slick-prev:before {
+    color:  #243e7c;
+}
+  
+  .slick-dots li button:before {
+    color: #243e7c;
+    font-size: 1rem;
+    top: 2rem;
+  }
+
+  
+  .MainBox {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .main-box .img-box {
+    width: 100%;
+  }
+  
+  .main-box .img-box img {
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    object-fit: cover;
+    aspect-ratio: 3/2;
+  }
+  
+  .Content {
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px dashed  #6415ff;
+  }
+  .subTitle>p{
+    font-size: .9rem;
+    color: grey;
+
+  }
+  .caraousalImgSection{
+    display:flex;
+    align-items: center;
+  }
+  .caraousalImgSection>img{
+    width: 10%;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  .caption>h5{
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #243e7c;
+    font-weight: 700;
+  }
+  .caption>small{
+    font-size: .9rem;
+    text-transform: capitalize;
+    color: grey;
+    font-weight: 500;
+  }
+ 
+  @media (max-width: 1200px) {
+    .clientHeading {
+        width: 70%;
+    }
+    .clientHeading > p {
+        width: 50%;
+    }
+    .main-box .img-box img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 992px) {
+  .Casousal{
+    margin-bottom: 2rem;
+  }
+    .clientHeading {
+        width: 80%;
+    }
+    .clientHeading > p {
+        width: 60%;
+    }
+    .main-box .img-box img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .clientHeading {
+        width: 90%;
+    }
+    .clientHeading > p {
+        width: 70%;
+    }
+    .Casousal {
+        width: 80%;
+    }
+    .main-box .img-box img {
+        height: 150px;
+    }
+    .caption > h5 {
+        font-size: 0.9rem;
+    }
+    .caption > small {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .clientHeading {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .clientHeading > h3 {
+        font-size: 2rem;
+    }
+    .clientHeading > p {
+        width: 80%;
+    }
+    .main-box .img-box img {
+        height: 120px;
+    }
+    .caption > h5 {
+        font-size: 0.8rem;
+    }
+    .caption > small {
+        font-size: 0.7rem;
+    }
+}

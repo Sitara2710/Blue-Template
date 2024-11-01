@@ -1,0 +1,87 @@
+
+
+.fisdomCard {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 20px;
+}
+
+.zeroIcon {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.zero {
+    width: 250px;
+    padding: 3rem;
+    margin: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.zero:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+.zero>p {
+    width: 50%;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.green {
+    background: #dba0e0;
+    border-radius: 10px;
+}
+
+.grey {
+    background: #eeede9;
+    border-radius: 10px;
+}
+
+.yel {
+    background: #e7caa2;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .fisdomCard {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .better {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .better>h1{
+        text-align: center;
+    }
+
+    .zero {
+        width: 200px;
+        margin: 20px;
+    }
+
+    .zero>p {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+    .zero {
+        width: 200px;
+        margin: 20px;
+    }
+}
+
+

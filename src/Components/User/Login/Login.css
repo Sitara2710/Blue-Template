@@ -1,0 +1,27 @@
+.LoginForm {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.loginImg {
+    width: 50%;
+}
+
+.loginImg>img {
+    width: 100%;
+}
+
+@media screen and (max-width:700px) {
+    .LoginForm {
+        width: 100%;
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+
+    .loginImg {
+        width: 100%;
+    }
+}

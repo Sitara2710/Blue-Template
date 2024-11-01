@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.teamContainer {
+    width: 100%;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teamContent {
+    width: 50%;
+}
+
+.teamContent>small {
+    font-size: 1rem;
+    color: #6415ff;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+}
+
+.teamContent>h3 {
+    color: #243e7c;
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+}
+
+.teamContent>h3>span {
+    color: #6415ff;
+}
+
+.teamContent>p {
+    font-size: 1.1rem;
+    color: grey;
+    font-weight: 500;
+    line-height: 1.3rem;
+    margin-top: 1rem;
+}
+
+.pro {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.serIcon1 {
+    border: 2px solid #6415ff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #6415ff !important;
+    font-size: 1.3rem !important;
+    margin-right: 10px;
+}
+
+.proDet>h5 {
+    font-size: 1.5rem;
+    color: #6415ff;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.proDet>small {
+    font-size: 1rem;
+    color: rgb(56, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.teamContent>button {
+    width: 40%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 2rem;
+    background: #6415ff;
+    outline: none;
+    border: none;
+    padding: .7rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.teamImg {
+    width: 45%;
+}
+
+.teamImg>img {
+    width: 100%;
+}
+
+@media screen and (max-width:1000px) {
+    .teamContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .teamContent {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .teamContent>small {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .teamContent>h3 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .teamContent>p {
+        font-size: 1.8rem !important;
+        line-height: 2.3rem;
+        text-align: center;
+    }
+
+    .teamImg {
+        width: 90%;
+
+    }
+
+    .pro {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+    .proDet {
+        margin-top: 2rem;
+    }
+
+    .proDet>small {
+        font-size: 1.4rem;
+    }
+
+
+    .proDet>h5 {
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+
+    .serIcon1 {
+        width: 90px;
+        height: 90px;
+        text-align: center;
+        font-size: 2rem !important;
+    }
+
+    .teamContent>button {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .teamContent>h3 {
+        font-size: 2rem;
+    }
+    .teamContent>p {
+        font-size: 1rem !important;
+        line-height: 1.3rem;
+    }
+    .pro {
+        margin-top: 1.2rem;
+    }
+    .proDet>h5 {
+        font-size: 1.2rem;
+    }
+    
+    .proDet>small {
+        font-size: .8rem;
+    }
+    .serIcon1 {
+        width: 50px;
+        height: 50px;
+
+    }
+    .teamContent>button {
+        width: 50%;
+        font-size: 1rem;
+        margin-top: 1rem;
+        padding: .5rem;
+    }
+    
+}
